@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="bower_components/angular/angular-csp.css"/>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body data-ng-app="app">
+
+<form id="someform" method="post" class="form-horizontal container">
+	<div class="form-group">
+		<intl-tel data-ng-cloak
+		          class="form-control"
+		          data-ng-model="number"
+				></intl-tel>
+	</div>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/intl-tel-input/build/js/intlTelInput.min.js"></script>
+	<script src="bower_components/intl-tel-input/lib/libphonenumber/build/utils.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!--init angular-->
+	<script src="app/app.js"></script>
+	<script src="app/directives/intlTelInputDirective.js"></script>
+
+</body>
+</html>

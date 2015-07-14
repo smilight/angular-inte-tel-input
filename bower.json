@@ -1,0 +1,23 @@
+{
+  "name": "angular-inte-tel-input",
+  "version": "0.0.5",
+  "homepage": "https://github.com/smilight/angular-inte-tel-input",
+  "authors": [
+    "smilight <shensi@ukr.net>"
+  ],
+  "description": "Angular directive for intl-tel-input",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "intl-tel-input": "~6.0.4",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.2",
+    "bootstrap": "~3.3.5"
+  }
+}
